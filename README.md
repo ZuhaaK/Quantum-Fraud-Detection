@@ -55,3 +55,9 @@ transactions, 98 fraud). QSVM is evaluated on a smaller undersampled test set
   applying SMOTE before the train/test split.
 
 ## Repository structure
+
+```
+notebooks/   fraud_detection_pipeline.ipynb and original_exploration.ipynb
+models/      saved trained models (.pkl, .joblib, .pth) and their thresholds
+results/     model_results.json with the final metrics for all five models
+```
