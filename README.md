@@ -46,9 +46,9 @@ transactions, 98 fraud). QSVM is evaluated on a smaller undersampled test set
 
 ## Notebooks
 
-- `fraud_detection_pipeline.ipynb` — the final, clean pipeline: EDA, all five
+- `fraud_detection_pipeline.ipynb` : the final, clean pipeline: EDA, all five
   models, evaluation, and the results comparison. This is the one to read.
-- `original_exploration.ipynb` — the original development notebook, kept
+- `original_exploration.ipynb` : the original development notebook, kept
   unedited for transparency. It includes early iterations and mistakes that
   were caught and corrected in the final version, including a hardcoded
   threshold value in an early XGBoost run and a data leakage bug from
